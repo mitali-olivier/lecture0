@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			font-family: 'Source Sans Pro', sans-serif;
+      		/*position: relative;*/ 
+		  }
+		  /*#home {padding-top:100px;height:500px;}*/
+		  #services {padding-top:100px;height:500px;}
+		  #about {padding-top:100px;height:500px;}
+		  #contact {padding-top:100px;height:500px;}
+	</style>
+</head>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="header">
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark p-4">
+	  <a class="navbar-brand text-light" style="font-size: 1.5em"> Company name </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="navbar navbar-light collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link text-uppercase" href="#home">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link text-uppercase" href="#services">Services</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link text-uppercase" href="#about"> About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link text-uppercase" href="#contact"> Contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+</div>
+<div class="section home mt-5" id="home" style="background-image: url(../designtest/safe.gif);">
+	<img src="../designtest/safe.gif">
+</div>
+<div class="section sercices container text-center mt-5" id="services">
+	<h1 class="display-4">Services</h1>
+	<div class="row mt-5">
+		<div class="col-md-4">
+			<img src="../designtest/service1.jpg" class="img-thumbnail">
+			<p class="lead">House Construction</p>
+		</div>
+		<div class="col-md-4">
+			<img src="../designtest/service2.jpg" class="img-thumbnail">
+			<p class="lead">Road Construction</p>
+		</div>
+		<div class="col-md-4">
+			<img src="../designtest/service4.jpg" class="img-thumbnail">
+			<p class="lead">Bridge Construction</p>
+		</div>
+	</div>
+</div>
+<div class="section about mt-4 container" id="about">
+	<h1 class="display-4 text-center">About Us</h1>
+	<div class="row mt-5">
+		<div class="col-md-4">
+			<p class="lead">contents</p>
+		</div>
+		<div class="col-md-4">
+			<p class="lead">Business Hours</p>
+			<p>Weekdays: 9am to 8pm</p>
+			<p>Saturday: 9am to 2pm</p>
+			<p>Sunday: Closed</p>
+		</div>
+		<div class="col-md-4">
+			<img src="../designtest/logo.png" class="img-thumbnail">
+		</div>
+	</div>
+</div>
+<div class="section mb-4 contact container" id="contact">
+	<h1 class="display-4 text-center">Contact Us</h1>
+	<div class="row mt-5">
+		<div class="col-md-6 mr-auto">
+			<p class="lead">INQUIRIES</p>
+			<form method="POST">
+				<input type="text" placeholder="Name" name="" required="" class="form-control" valid><br>
+				<input type="email" placeholder="Email" name="" required="" class="form-control" valid><br>
+				<textarea class="form-control" placeholder="Please enter a message" required=""></textarea><br>
+				<input type="submit" class="btn btn-primary" value="Send" name="">
+			</form>
+		</div>
+		<div class="col-auto my-2 my-lg-0"">
+			<p class="lead">Business Hours</p>
+			<p>Weekdays: 9am to 8pm</p>
+			<p>Saturday: 9am to 2pm</p>
+			<p>Sunday: Closed</p>
+		</div>
+	</div>
+</div>
+<div class="footer p-2 bg-light">
+	
+		<div class="text-center" style="">
+			<p class=""> Copyright &copy Company name 2019 developed by Mitali</p>
+		</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
